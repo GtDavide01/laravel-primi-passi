@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $title = "Sono la prima pagina in laravel";
+    return view('home', compact("title"));
 });
