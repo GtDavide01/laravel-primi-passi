@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-
 <style>
     * {
         box-sizing: border-box;
@@ -42,18 +41,21 @@
     }
 </style>
 
+
+
 <body>
     <header>
         <ul>
-            <li><a href="{{ route('pagina1laravel') }}">Pagina 1</a></li>
+            <li><a href="{{ route('home') }}">Torna alla home </a></li>
             <li><a href="{{ route('pagina2laravel') }}">Pagina 2</a></li>
             <li><a href="{{ route('pagina3laravel') }}">Pagina 3</a></li>
         </ul>
     </header>
     <main>
         <h1>Hello World</h1>
-        <h2>{{ $title }}</h2>
+        <h2>Sono la prima pagina!</h2>
     </main>
 </body>
+
 
 </html>
